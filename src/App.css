@@ -1,0 +1,44 @@
+/* Main container for the app */
+.App {
+  text-align: center;
+}
+
+/* React logo styling + animation setup */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Logo spin animation (only if motion isn't reduced) */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header section: fills full screen, centers content */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* App link style */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframe for rotating logo animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

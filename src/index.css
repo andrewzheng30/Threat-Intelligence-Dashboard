@@ -1,0 +1,22 @@
+/* ===== Global Body Styles =====
+   - Remove default margin around the page
+   - Apply a clean, modern font stack (cross-platform friendly)
+   - Enable font smoothing for better text rendering on macOS and WebKit browsers
+*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Code Block Styles =====
+   - Use a monospace font stack for consistency in displaying code snippets
+*/
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
